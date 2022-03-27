@@ -145,7 +145,13 @@ td {
     border: 1px solid #000;
     padding: 5px
   }
-
+.error{
+    position: absolute;
+    top: 200px;
+    left:200px;
+    font-size: 24px;
+    color: red;
+}
 
 .spinner {
     display: none;
