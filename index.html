@@ -1,0 +1,166 @@
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito:wght@700;900&family=Playfair+Display+SC&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./modal.css">
+    <link rel="import" href="./modal.html">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Shop</title>
+</head>
+
+<body id="bodyid">
+    <div class="header">
+        <div class="header_left_block">
+            <div class="polygon">
+                <span>P</span>
+                <img src="./img/Polygon 1.svg" alt="">
+            </div>
+        </div>
+        <div class="header_right_block">
+            <button id="button_open"><span>Форма</span></button>
+            <div class="header_right_block_text">
+                <h1>Kembang <br /> Flower Mantap</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s,
+                </p>
+            </div>
+            <div class="header-right-block-miniblock">
+                <div class="header-right-block-miniblock1">
+                    <div class="previous">Previous</div>
+                    <div class="miniblock1-text1">Kaktus Plant</div>
+                </div>
+                <div class="header-right-block-miniblock2">
+                    <div class="next">Next</div>
+                    <div class="miniblock1-text2">Rahasia Plant</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="middle-bar">
+        <div class="middle-bar1">
+            <img src="./img/delivery512.png" width="55px" height="55px" alt="">
+            <span>Fast <br /> Delivery</span>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse ex placeat dolores repellendus sed. Hic?
+            </p>
+        </div>
+        <div class="middle-bar2">
+            <img src="./img/headphones1.png" width="55px" height="55px" alt="">
+            <span>Great Customer<br />Service</span>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse ex placeat dolores repellendus sed. Hic?
+            </p>
+        </div>
+        <div class="middle-bar3">
+            <img src="./img/plantss.png" width="55px" height="55px" alt="">
+            <span>Original<br />Plants</span>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse ex placeat dolores repellendus sed. Hic?
+            </p>
+        </div>
+        <div class="middle-bar4">
+            <img src="./img/price1.png" width="55px" height="55px" alt="">
+            <span>Affordable<br />Price</span>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse ex placeat dolores repellendus sed. Hic?
+            </p>
+        </div>
+    </div>
+    <div class="FP">
+        <div class="featured-plants">
+            Featured Plants
+        </div>
+        <div class="menu">
+            <select>
+                <option>Cheaper First</option>
+                <option>Cheaper Second</option>
+            </select>
+        </div>
+        <div class="line"></div>
+    </div>
+
+    <div class="plants-list">
+        <div class="plants-list1">
+            <img src="./img/plant1.png" alt="" width="220px" height="250px">
+            <p class="plants-list-upper-text">
+                Kaktus Plants
+            </p>
+            <p class="plants-list-lower-text">
+                IDR 85.000
+            </p>
+        </div>
+
+        <div class="plants-list2">
+            <img src="./img/plant2.png" alt="" width="220px" height="250px">
+            <p class="plants-list-upper-text">
+                Landak Plants
+            </p>
+            <p class="plants-list-lower-text">
+                IDR 105.000
+            </p>
+        </div>
+        <div class="plants-list3">
+            <img src="./img/plant3.png" alt="" width="220px" height="250px">
+            <p class="plants-list-upper-text">
+                Kecubung Plants
+            </p>
+            <p class="plants-list-lower-text">
+                IDR 85.000
+            </p>
+        </div>
+        <div class="plants-list4">
+            <img src="./img/plant4.png" alt="" width="220px" height="250px">
+            <p class="plants-list-upper-text">
+                Kecubung Plants
+            </p>
+            <p class="plants-list-lower-text">
+                IDR 85.000
+            </p>
+        </div>
+        <div class="plants-list5">
+            <img src="./img/plant5.png" alt="" width="220px" height="250px">
+            <p class="plants-list-upper-text">
+                Kecubung Plants
+            </p>
+            <p class="plants-list-lower-text">
+                IDR 85.000
+            </p>
+        </div>
+    </div>
+    <!-- Верстка модального окна и его элементов -->
+
+    <div class="modal" id="myModal">
+        <span class="close-modal">&times;</span>
+        <div class="modalcontent" id="modal___content">
+            <img class="feedback_logo" id="feedback__logo" src="./img/feedback.png" alt="#">
+            <p class="form-upper-text" id="form_upper_text">Форма сайта</p>
+            <p class="form-lower-text" id="form_lower_text">
+                Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry
+            </p>
+            <input class="input_name" name="input__name" id="input___name" type="text" placeholder="Имя">
+            <input class="input_phone" id="input___phone" type="tel" placeholder="Номер телефона">
+            <div class="buttons">
+                <button class="submit_button">Отправить</button>
+                <button class="cancel_button" id="cancel__button">Отменить</button>
+            </div>
+        </div>
+        <div class="newModal" id="new_modal">
+
+        </div>
+    </div>
+    <!-- Затемнение фона при открытии мод окна -->
+    <div id="modalbackid" class="modalback"></div>
+    <!-- Спиннер  -->
+    <div class="spinner" id="spinner"></div>
+    <script type="text/javascript" src="./js.js"></script>
+</body>
+
+
+</html>

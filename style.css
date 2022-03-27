@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display+SC&display=swap');
+body{
+    position: relative;
+    height: 1800px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display SC', serif;
+}
+
+/* Стили для верхней части страницы */
+.header{
+    width: 1280;
+}
+.header_left_block{
+    background: url('./img/pexels-cottonbro-1.png');
+    height: 742px;
+    width: 608px;
+    float: left;
+
+}
+.polygon{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 56px;
+}
+.polygon span{
+    color: white;
+    position: absolute;
+    width: 9px;
+    height: 16px;
+    left: 12px;
+    top: 7px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+}
+.header_right_block{
+    width: 672px;
+    height: 582px;
+    float: right;
+
+}
+.header-right-block-miniblock{
+    display: table;
+    height: 160px;
+    width: 672px;
+}
+.header-right-block-miniblock1{
+    display: table-cell;
+    width: 336px;
+}
+
+.miniblock1-text1{
+    color: #156963;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 70px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+
+}
+.miniblock1-text2{
+    color:white;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 70px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+.header-right-block-miniblock2{
+    display: table-cell;
+    width: 336px;
+    background-color: #156963;
+}
+
+.previous{
+    background: url('./img/Vector-left1.svg')left no-repeat;
+    padding-left: 35px;
+    font-size: 24px;
+    color:grey;
+    position: absolute;
+    margin-top: 38.5px;
+    margin-left: 65px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+.next{
+    background: url('./img/Vector-right2.svg')right no-repeat;
+    font-size: 24px;
+    color:grey;
+    position: absolute;
+    margin-top: 38.5px;
+    margin-left: 57px;
+    padding-right: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+.header_right_block button{
+    background: #156963;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    float: right;
+    width: 111px;
+    height: 36px;
+    margin-top: 40px;
+    margin-right: 56px;
+    /* border: none; */
+}
+.header_right_block span{
+    color: white;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+}
+.header_right_block_text h1{
+    position: static;
+    width: 523px;
+    height: 166px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 83px;
+    color: #156963;
+    margin: 186px 72px 0 77px ;
+}
+.header_right_block_text p{
+    position: static;
+    width: 430px;
+    height: 96px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2C1500;
+    opacity: 0.8;
+    margin: 24px 102px 110px 77px;
+}
+
+
+
+
+
+
+/* Стили средней части страницы */
+
+.middle-bar{
+    display: table;
+    position: absolute;
+    height: 155px;
+    width: 1300px;
+    margin-top: 902px;
+    border-spacing: 32px 0;
+}
+.middle-bar span{
+    color: #156963;
+    position: absolute;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 22px 51px 85px 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+}
+.middle-bar p{
+    margin: 86px 16px 21px 16px;
+    color: #2C1500;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+}
+.middle-bar img {
+    position: absolute;
+    margin: 20px 206px 85px 19px;
+    color: #156963;;
+}
+.middle-bar1{
+    display: table-cell;
+    width: 268px;
+    border: 1px solid #E0E0E0;
+}
+.middle-bar2{
+    display: table-cell;
+    width: 268px;
+    border: 1px solid #E0E0E0;
+}
+.middle-bar3{
+    display: table-cell;
+    width: 268px;
+    border: 1px solid #E0E0E0;
+}
+.middle-bar4{
+    display: table-cell;
+    width: 268px;
+    border: 1px solid #E0E0E0;
+}
+
+
+
+/* Нижняя часть страницы */
+
+.FP{
+    margin: 1120px 20px 0 30px;
+    height: 20px;
+    width: 1245px;
+    position: absolute;
+    display: table;
+
+}
+.featured-plants{
+    display: table-cell;
+    float: left;
+    position: absolute;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+.menu{
+    display: table-cell;
+    float: right;
+    margin-right: 12px;
+    border: 2px solid #E0E0E0;
+    box-sizing: border-box;
+
+}
+.menu select{
+    width: 140px;
+    height: 35px;
+    padding: 8px 12px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+.line {
+    margin-top: 50px;
+    border-bottom: 3px solid #E0E0E0; 
+   }
+
+
+
+
+
+
+.plants-list{
+    display: table;
+    position: absolute;
+    height: 200px;
+    margin: 1220px 10px 70px 10px;
+    border-spacing: 32px 0;
+    width: 1245px;
+    margin-bottom: 300px;
+}
+.plants-list div{
+    display: table-cell;
+    background-color: #C4C4C4;
+}
+.plants-list-upper-text{
+    position: absolute;
+    font-size: 20px;
+    padding-left: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+}
+.plants-list-lower-text{
+    position: absolute;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 65px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+}
