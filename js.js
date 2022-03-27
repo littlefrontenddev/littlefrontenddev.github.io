@@ -120,6 +120,9 @@ xhr.onload = () => {
     // }
     // console.log(newMass);
 }
+xhr.onerror = () => { //вывод сообщения при ошибке в запросе
+    document.querySelector('.newModal').innerHTML = `<div class="error">ERROR</div>`;
+}
 xhr.send();
 
 
